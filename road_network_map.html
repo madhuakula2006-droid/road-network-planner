@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d0aa04f4df159ce2e553e2f7da43e14e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d0aa04f4df159ce2e553e2f7da43e14e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d0aa04f4df159ce2e553e2f7da43e14e = L.map(
+                "map_d0aa04f4df159ce2e553e2f7da43e14e",
+                {
+                    center: [17.13, 82.17],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_97173c8f8eb71dfd3fe209cd37ac6125 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_97173c8f8eb71dfd3fe209cd37ac6125.addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            var marker_1ed430bf6ff499906e89c6eb6ad8f619 = L.marker(
+                [17.11126, 82.16693],
+                {
+}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+        var popup_9c4191b4ee7b45c2554dc012904ded77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bf179b9ba786807098730852736a53e = $(`<div id="html_8bf179b9ba786807098730852736a53e" style="width: 100.0%; height: 100.0%;">Gorinta</div>`)[0];
+                popup_9c4191b4ee7b45c2554dc012904ded77.setContent(html_8bf179b9ba786807098730852736a53e);
+            
+        
+
+        marker_1ed430bf6ff499906e89c6eb6ad8f619.bindPopup(popup_9c4191b4ee7b45c2554dc012904ded77)
+        ;
+
+        
+    
+    
+            marker_1ed430bf6ff499906e89c6eb6ad8f619.bindTooltip(
+                `<div>
+                     Gorinta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e44e7a2b862a8d7eb039c3b57c683cb2 = L.marker(
+                [17.12669, 82.15932],
+                {
+}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+        var popup_a7b6b88c3ce53c7a5cc55c76161cc061 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cd63e52d057087e7c36d8c5bdeb1cc3 = $(`<div id="html_2cd63e52d057087e7c36d8c5bdeb1cc3" style="width: 100.0%; height: 100.0%;">Pullimeru</div>`)[0];
+                popup_a7b6b88c3ce53c7a5cc55c76161cc061.setContent(html_2cd63e52d057087e7c36d8c5bdeb1cc3);
+            
+        
+
+        marker_e44e7a2b862a8d7eb039c3b57c683cb2.bindPopup(popup_a7b6b88c3ce53c7a5cc55c76161cc061)
+        ;
+
+        
+    
+    
+            marker_e44e7a2b862a8d7eb039c3b57c683cb2.bindTooltip(
+                `<div>
+                     Pullimeru
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cc86c676d8903edca5cc62f3194481bb = L.marker(
+                [17.14439, 82.16255],
+                {
+}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+        var popup_67846f164518bca5e3c5697e979dd2d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_643066eba901ddc7819d38f945eb3ef7 = $(`<div id="html_643066eba901ddc7819d38f945eb3ef7" style="width: 100.0%; height: 100.0%;">Divili</div>`)[0];
+                popup_67846f164518bca5e3c5697e979dd2d1.setContent(html_643066eba901ddc7819d38f945eb3ef7);
+            
+        
+
+        marker_cc86c676d8903edca5cc62f3194481bb.bindPopup(popup_67846f164518bca5e3c5697e979dd2d1)
+        ;
+
+        
+    
+    
+            marker_cc86c676d8903edca5cc62f3194481bb.bindTooltip(
+                `<div>
+                     Divili
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cd9a29b4129fbf6e8934946091fca3bf = L.marker(
+                [17.13536, 82.18612],
+                {
+}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+        var popup_239e0800f0f0f6b950d1e3f608c7e430 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a50c8c88cd389d678ab51e8ddb435229 = $(`<div id="html_a50c8c88cd389d678ab51e8ddb435229" style="width: 100.0%; height: 100.0%;">Virava</div>`)[0];
+                popup_239e0800f0f0f6b950d1e3f608c7e430.setContent(html_a50c8c88cd389d678ab51e8ddb435229);
+            
+        
+
+        marker_cd9a29b4129fbf6e8934946091fca3bf.bindPopup(popup_239e0800f0f0f6b950d1e3f608c7e430)
+        ;
+
+        
+    
+    
+            marker_cd9a29b4129fbf6e8934946091fca3bf.bindTooltip(
+                `<div>
+                     Virava
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e559d114887c6fbb88cd5a025b385d45 = L.marker(
+                [17.1103, 82.18546],
+                {
+}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+        var popup_9ea14ccc49d872c29fffed2b1f23a9d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c298dfa8f6671039d28ad2de9c756a39 = $(`<div id="html_c298dfa8f6671039d28ad2de9c756a39" style="width: 100.0%; height: 100.0%;">Mallam</div>`)[0];
+                popup_9ea14ccc49d872c29fffed2b1f23a9d2.setContent(html_c298dfa8f6671039d28ad2de9c756a39);
+            
+        
+
+        marker_e559d114887c6fbb88cd5a025b385d45.bindPopup(popup_9ea14ccc49d872c29fffed2b1f23a9d2)
+        ;
+
+        
+    
+    
+            marker_e559d114887c6fbb88cd5a025b385d45.bindTooltip(
+                `<div>
+                     Mallam
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d56bfec2d4a5446060276c97effdcdf7 = L.polyline(
+                [[17.11126, 82.16693], [17.12669, 82.15932]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_d56bfec2d4a5446060276c97effdcdf7.bindTooltip(
+                `<div>
+                     Candidate: gorinta - pullimeru
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_338e32bac62d5c0f6b668038fa19216b = L.polyline(
+                [[17.12669, 82.15932], [17.14439, 82.16255]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_338e32bac62d5c0f6b668038fa19216b.bindTooltip(
+                `<div>
+                     Candidate: pullimeru - divili
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9ea2c8910497fd89332af6c6aa585e53 = L.polyline(
+                [[17.14439, 82.16255], [17.13536, 82.18612]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_9ea2c8910497fd89332af6c6aa585e53.bindTooltip(
+                `<div>
+                     Candidate: divili - virava
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_789abfd9cd8c66b8eb363803166ab438 = L.polyline(
+                [[17.13536, 82.18612], [17.1103, 82.18546]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_789abfd9cd8c66b8eb363803166ab438.bindTooltip(
+                `<div>
+                     Candidate: virava - mallam
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_11430a8d6cb5317e6c4069a53988734e = L.polyline(
+                [[17.1103, 82.18546], [17.11126, 82.16693]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_11430a8d6cb5317e6c4069a53988734e.bindTooltip(
+                `<div>
+                     Candidate: mallam - gorinta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3989ed752b99699adb014411f87c89a1 = L.polyline(
+                [[17.12669, 82.15932], [17.13536, 82.18612]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_3989ed752b99699adb014411f87c89a1.bindTooltip(
+                `<div>
+                     Candidate: pullimeru - virava
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_bf5c90878728849529b2c23786915a6f = L.polyline(
+                [[17.12669, 82.15932], [17.14439, 82.16255]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_bf5c90878728849529b2c23786915a6f.bindTooltip(
+                `<div>
+                     Selected: pullimeru - divili: ₹20 lakh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_eb85b35fcd311835a28282f57552b522 = L.polyline(
+                [[17.12669, 82.15932], [17.13536, 82.18612]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_eb85b35fcd311835a28282f57552b522.bindTooltip(
+                `<div>
+                     Selected: pullimeru - virava: ₹20 lakh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_dca83d9d6ffa2913639eec20160f57ed = L.polyline(
+                [[17.13536, 82.18612], [17.1103, 82.18546]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_dca83d9d6ffa2913639eec20160f57ed.bindTooltip(
+                `<div>
+                     Selected: virava - mallam: ₹25.0 lakh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_da72baf4ce46ea2e00c904f3cceb5182 = L.polyline(
+                [[17.1103, 82.18546], [17.11126, 82.16693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            poly_line_da72baf4ce46ea2e00c904f3cceb5182.bindTooltip(
+                `<div>
+                     Selected: mallam - gorinta: ₹30 lakh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0582b70d2d6e822efc56f1e3dc25651a = L.marker(
+                [17.13, 82.17],
+                {
+}
+            ).addTo(map_d0aa04f4df159ce2e553e2f7da43e14e);
+        
+    
+            var icon_6d9f5574a6e1d7b9b626cfbbb253b4c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e46924a90225c1f23b2b4400459328dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e36e61be15b400a37aec7a5e7d26925c = $(`<div id="html_e36e61be15b400a37aec7a5e7d26925c" style="width: 100.0%; height: 100.0%;">Selected roads: 4<br>Total estimated cost: ₹95.0 lakh</div>`)[0];
+                popup_e46924a90225c1f23b2b4400459328dc.setContent(html_e36e61be15b400a37aec7a5e7d26925c);
+            
+        
+
+        marker_0582b70d2d6e822efc56f1e3dc25651a.bindPopup(popup_e46924a90225c1f23b2b4400459328dc)
+        ;
+
+        
+    
+    
+            marker_0582b70d2d6e822efc56f1e3dc25651a.bindTooltip(
+                `<div>
+                     Minimum Spanning Tree
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0582b70d2d6e822efc56f1e3dc25651a.setIcon(icon_6d9f5574a6e1d7b9b626cfbbb253b4c2);
+            
+</script>
+</html>
